@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="covo">
+    <meta name="keywords" content="covo, 대한배구협회, JavaScript">
+    <meta name="author" content="dong hwi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOVO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/66083c42b3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header>
+            <!-- <div class="
+            hamburger_bar"><i class="fa-solid fa-bars"></i></div>
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="modal">
+                <section class="modal_header">
+                    <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                    <h2>김동휘님</h2>
+                    <p>KOVO 오신것을 환영합니다.</p>
+                    <a href="#"><img src="img/profile.png" alt="프로필"></a>
+                </section>
+            </div>
+            <section class="modal_main">
+                <ul>
+                    <li><a href="#">STATS</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">GAME</a></li>
+                    <li><a href="#">MEDIA</a></li>
+                    <li><a href="#">FAN</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">EVENT</a></li>
+                    <li><a href="#">TICKET</a></li>
+                </ul>
+            </section> -->
+
+
+            <div class="header_main">
+                <div class="header_icon">
+                    <div class="
+                    hamburger_bar"><i class="fa-solid fa-bars"></i></div>
+                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+
+                <h1><a href="#"><img src="img/center_logo.png" alt="kovo"></a></h1>
+                <div class="container">
+                    <div class="header_top">
+                        <div class="header_top_l">
+                            <h3>Korea Volleyball Federation</h3>
+                        </div><!-- //.header_top_l -->
+                        <div class="header_top_r">
+                            <div class="search_wrap">
+                                <input type="text">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <ul>
+                                <li><a href="#">로그인</a></li>
+                                <li><a href="#">회원가입</a></li>
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div><!-- //.header_top_r -->
+                    </div><!-- //.header_top -->
+
+                    <div class="logo">
+                        <div class="header_center_l">
+                            <ul>
+                                <li><a href="#"><img src="img/대한항공.png" alt="대한항공"></a></li>
+                                <li><a href="#"><img src="img/오케이.png" alt="오케이저축은행"></a></li>
+                                <li><a href="#"><img src="img/우리카드.png" alt="우리카드"></a></li>
+                                <li><a href="#"><img src="img/현대.png" alt="현대캐피탈"></a></li>
+                                <li><a href="#"><img src="img/한국전력.png" alt="한국전력"></a></li>
+                                <li><a href="#"><img src="img/삼성화재.png" alt="삼성화재"></a></li>
+                                <li><a href="#"><img src="img/케이비.png" alt="kb"></a></li>
+                            </ul>
+
+                        </div><!-- //.header_center_l -->
+
+                        <div class="header_center_r">
+                            <ul>
+                                <li><a href="#"><img src="img/현대건설.png" alt="현대건설"></a></li>
+                                <li><a href="#"><img src="img/흥국.png" alt="흥국생명"></a></li>
+                                <li><a href="#"><img src="img/정관장.png" alt="정관장"></a></li>
+                                <li><a href="#"><img src="img/지에스.png" alt="GS칼텍스"></a></li>
+                                <li><a href="#"><img src="img/아이비케이.png" alt="ibk"></a></li>
+                                <li><a href="#"><img src="img/한국도로.png" alt="한국도로공사"></a></li>
+                                <li><a href="#"><img src="img/페퍼.png" alt="페퍼"></a></li>
+                            </ul>
+
+                        </div><!-- //.header_center_r -->
+
+                    </div><!-- //.logo -->
+                </div><!-- //.container -->
+            </div><!-- //header_main -->
+            <div class="header_bottom">
+                <nav class="container">
+                    <ul class="gnb">
+                        <li><a href="#">KOVO</a></li>
+                        <li><a href="#">STATS</a></li>
+                        <li><a href="#">TEAM</a></li>
+                        <li><a href="#">GAME</a></li>
+                        <li><a href="#">MEDIA</a></li><!--  -->
+                        <li><a href="#">FAN</a></li>
+                        <li><a href="#">NEWS</a></li><!--  -->
+                        <li><a href="#">TICKET</a></li>
+                        <li><a href="#">STORE</a></li><!--  -->
+                    </ul><!-- //.gnb -->
+                </nav>
+            </div><!-- //.header_main -->
+        </header><!-- //.header -->
+        <main>
+            <div class="main_visual swiper">
+                <ul class="slide swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="img/main_visual_slide1.png" alt="도드람 브이리그"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/slide2.png" alt="팀 코보"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/slide3.png" alt="우승 트로피"></a></li>
+                </ul><!-- //.slide -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div><!-- //.main_visual -->
+            <section class="main_con1 "><!-- swiper -->
+                <div class="container">
+                    <h2>V-LEAGUE Next Match!</h2>
+                    <div class="slide swiper">
+                        <ul class="match swiper-wrapper"><!--  swiper-wrapper -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide.png" alt="매치1"></a></li>
+                            <!-- //.class="swiper-slide" -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide2.png" alt="매치2"></a></li>
+                            <!-- //.class="swiper-slide" -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide3.png" alt="매치3"></a></li>
+                            <!--  class="swiper-slide" -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide4.png" alt="매치4"></a></li>
+                            <!-- class="swiper-slide" -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide5.png" alt="매치5"></a></li>
+                            <!--  class="swiper-slide" -->
+                            <li class="swiper-slide"><a href="#"><img src="img/con1_slide6.png" alt="매치6"></a></li>
+                            <!--  class="swiper-slide" -->
+                        </ul><!-- //.match -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div><!-- //.container -->
+            </section><!-- //.main_con1 -->
+            <section class="main_con2">
+                <div class="container">
+                    <div class="tit">
+                        <h2>MY PLAYER</h2>
+                        <span>CAN:V</span>
+                    </div>
+                    <div class="slide swiper">
+                        <ul class="player_card swiper-wrapper">
+                            <li class="swiper-slide"><a href="#"><img src="img/myplayer1.png" alt="마이 플레이어1"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="img/myplayer2.png" alt="마이 플레이어2"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="img/myplayer3.png" alt="마이 플레이어3"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="img/myplayer_made.png" alt="마이 플레이어 만들기"></a>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="arrow">
+                        <i class="fa-solid fa-arrow-left-long left"></i>
+                        <i class="fa-solid fa-arrow-right-long right"></i>
+                    </div>
+                    <div class="left_icon">
+                        <div class="container">
+                            <ul class="left_img_i">
+                                <li><img src="img/대한항공con_2.png" alt="대한항공"></li>
+                                <li>
+                                    <p>대한항공</p>
+                                </li>
+                            </ul>
+                            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="left_icon_b">
+                        <div class="container">
+                            <p>팬페이지 바로가기</p>
+                            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="con2_box">
+                        <ul>
+                            <li class="con2_r on">
+                                <b>한선수1</b>
+                                <p>position<span>setter</span></p>
+                                <p>physical<span>188.7cm · 85kg</span></p>
+                                <p>birth<em>1985.12.16</em></p>
+                            </li>
+                            <li class="con2_r">
+                                <b>한선수2</b>
+                                <p>position<span>setter</span></p>
+                                <p>physical<span>188.7cm · 85kg</span></p>
+                                <p>birth<em>1985.12.16</em></p>
+                            </li>
+                            <li class="con2_r">
+                                <b>한선수3</b>
+                                <p>position<span>setter</span></p>
+                                <p>physical<span>188.7cm · 85kg</span></p>
+                                <p>birth<em>1985.12.16</em></p>
+                            </li>
+                            <li class="con2_r">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section><!-- //.main_con2 -->
+            <section class="notice">
+                <div class="character">
+                    <img src="img/image 139.png" alt="코로 캐릭터">
+                </div>
+                <div class="container">
+                    <div class="notice_top">
+                        <div class="txt">
+                            <h2>Notice</h2>
+                            <p>새로운 소식을 <span>확인하세요</span></p>
+                        </div><!-- //.txt -->
+                        <div class="dashed"></div><!-- 걍 점선용 -->
+                        <div class="top_r">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-angle-left"></i></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-pause"></i></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+                            </ul>
+                            <ul class="plus">
+                                <li><a href="#"><i class="fa-solid fa-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!-- //.top_r -->
+                    <div class="notice_main">
+                        <div class="tab_menu">
+                            <ul>
+                                <li class="on">KOVO 뉴스</li>
+                                <li>보도자료</li>
+                                <li>공지사항</li>
+                                <li>EVENT</li>
+                            </ul>
+                        </div><!-- //.tab_menu -->
+                        <div class="kovo_news">
+                            <ul class="contents">
+                                <li class="on">
+                                    <ul class="sub">
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news">KOVO 뉴스</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    도드람 2024~2025 V-리그 올스타전<br>
+                                                    운영 대행 업체 선정 재입찰 공고 계획(안)
+                                                </p>
+                                                <p class="date">2024.10.22</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news">KOVO 뉴스</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    2024~2025 KOVO<br>
+                                                    남자 신인선수 드래프트 결과)
+                                                </p>
+                                                <p class="date">2024.10.21</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news">KOVO 뉴스</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    2024-2025 KOVO<br>
+                                                    남자 신인선수드래프트 모집공고
+                                                </p>
+                                                <p class="date">2024.09.20</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news">KOVO 뉴스</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    이탈리아 다음은 통영이다!’<br>
+                                                    2024 통영·도드람컵 프로배구대회 13일<br>부터 온라인 티켓 판매 시작
+                                                </p>
+                                                <p class="date">2024.09.11</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="sub">
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_release">보도 자료</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    '컵대회 열기, 그대로 이어간다'<br>6개월 대장정에 돌입하는 V-리그
+                                                </p>
+                                                <p class="date">2024.10.14</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_release">보도 자료</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    'V-리그 문 두드리는 49명의 꿈나무들' 2024-2025 KOVO 남자부 <br>신인선수 드래프트 실시
+                                                </p>
+                                                <p class="date">2024.10.14</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_release">보도 자료</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    보고, 듣고, 직접 즐긴다!<br>'가을바다' 통영에서 펼쳐지는<br>'나만의' 배구축제 무엇이 달라졌나?
+                                                </p>
+                                                <p class="date">2024.09.19</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_release">보도 자료</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    '완전체'로 나선다! V-리그<br> '전초전'이 될 KOVO컵 관전 포인트는?
+                                                </p>
+                                                <p class="date">2024.09.19</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="sub">
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_gong_go">공지 사항</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    도드람 2024~2025 V-리그 <br>'직관 체크 이벤트' 안내
+                                                </p>
+                                                <p class="date">2024.10.18</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_gong_go">공지 사항</p>
+                                                    <span class="new_nwes">N</span>
+                                                </div>
+                                                <p class="main_txt">
+                                                    국민체육진흥법 개정에 따른<br> 암표처벌 조항 신설 및 프로스포츠<br> 온라인 암표신고센터 운영 안내
+                                                </p>
+                                                <p class="date">2024.10.14</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_gong_go">공지 사항</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    도드람 2024~2025 V-리그<br> 개막 기념 쿠폰 지급 안내
+                                                </p>
+                                                <p class="date">2024.10.10</p>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                                <div class="notice_card_top">
+                                                    <p class="sub_news_gong_go">공지 사항</p>
+                                                    <!-- <span class="new_nwes">N</span> -->
+                                                </div>
+                                                <p class="main_txt">
+                                                    2024 통영·도드람컵 <br>프로배구대회 입장 관련 안내
+                                                </p>
+                                                <p class="date">2024.09.28</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="sub">
+                                        <li><a href="#">
+
+                                        </li>
+                                        <li><a href="#">
+
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                            </a>
+                                        </li>
+                                        <li><a href="#">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- //.kovo_news -->
+                    </div>
+                </div><!-- //.notice_top -->
+            </section><!-- //.notice -->
+            <div class="main_con3">
+                <h2>
+                    Recent Match<br>Results
+                </h2>
+                <ul class="result container">
+                    <li><a href="#"><img src="img/game_ result1.png" alt="1 결과 표"></a></li>
+                    <li><a href="#"><img src="img/game_ result2.png" alt="2 결과 표"></a></li>
+                    <li><a href="#"><img src="img/game_ result3.png" alt="3 결과 표"></a></li>
+                    <li><a href="#"><img src="img/game_ result4.png" alt="4 결과 표"></a></li>
+                </ul>
+                <!-- //.container -->
+            </div><!-- //.main_con3 -->
+            <div class="main_con4">
+                <div class="container">
+                    <div class="con4_top">
+                        <h2>YOUTUBE</h2>
+                        <div class="icon_plus">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <ul class="youtube_box">
+                        <li>
+                            <ul class="y_top">
+                                <li><a href="#"><img src="img/y_1.png" alt="유튜브1">
+                                        <p>NEW STAR, NEW START, IBK기업은행</p>
+                                    </a></li>
+                                <li><a href="#"><img src="img/y_2.png" alt="유튜브2">
+                                        <p>끈질긴 배구의 반란, 한국전력</p>
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="y_bottom">
+                                <li><a href="#"><img src="img/y_3.png" alt="유튜브3">
+                                        <p>Go together, Be happy 한국도로공사</p>
+                                    </a></li>
+                                <li><a href="#"><img src="img/y_4.png" alt="유튜브4">
+                                        <p>왕좌를 향한 도전준비 OK?</p>
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul><!-- //.youtube_box -->
+
+
+                    <!-- <li><a href="#"><img src="img/y_5.png" alt="유튜브5">
+                                    <p>새로운 시즌의 다크호스, 정관장</p>
+                                </a></li>
+                            <li><a href="#"><img src="img/y_6.png" alt="유튜브6">
+                                    <p>남자 신인선수 드래프트</p>
+                                </a></li> -->
+
+
+
+                    <!-- <div class="icon_bottom">
+                        <div class="icon_angle_left">
+                            <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                        </div>
+                        <div class="icon_fa_pause">
+                            <a href="#"> <i class="fa-solid fa-pause"></i></a>
+                        </div>
+                        <div class="icon_angle_right">
+                            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div><!-- //.main_con4 -->
+            <div class="main_con5">
+                <div class="container">
+                    <div class="con5_top">
+                        <div class="con5_icon_plus">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        <h2>SHORTS</h2>
+                    </div><!-- //.con5_top -->
+                    <div class="shorts_box">
+                        <ul>
+                            <li><a href="#"><img src="img/shorts.png" alt="쇼츠1"></a></li>
+                            <li><a href="#"><img src="img/shorts2.png" alt="쇼츠2"></a></li>
+                            <li><a href="#"><img src="img/shorts3.png" alt="쇼츠3"></a></li>
+                            <li><a href="#"><img src="img/shorts4.png" alt="쇼츠4"></a></li>
+                            <li><a href="#"><img src="img/shorts5.png" alt="쇼츠5"></a></li>
+                        </ul>
+                    </div><!-- //.shorts_box -->
+                </div><!-- //.container -->
+            </div>
+
+            <div class="supporter_logo">
+                <div class="container">
+                    <ul>
+                        <li><a href="#"><img src="img/supporter1.png" alt="도드람"></a></li>
+                        <li><a href="#"><img src="img/supporter2.png" alt="케이비에스"></a></li>
+                        <li><a href="#"><img src="img/supporter3.png" alt="케이비에스 엔"></a></li>
+                        <li><a href="#"><img src="img/supporter4.png" alt="에스비에스 스포츠"></a></li>
+                        <li><a href="#"><img src="img/supporter5.png" alt="포카리"></a></li>
+                        <li><a href="#"><img src="img/supporter6.png" alt="삼다수"></a></li>
+                        <li><a href="#"><img src="img/supporter7.png" alt="미카사"></a></li>
+                        <li><a href="#"><img src="img/supporter8.png" alt="미지노"></a></li>
+                        <li><a href="#"><img src="img/supporter9.png" alt="에스피코리아"></a></li>
+                        <li><a href="#"><img src="img/supporter10.png" alt="뉴케어"></a></li>
+                        <li><a href="#"><img src="img/supporter11.png" alt="휴온스"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </main><!-- //.main -->
+        <footer>
+            <div class="container">
+                <div class="f_logo">
+                    <a href="#"><img src="img/kovo_f_logo.png" alt="코보 푸터 로고"></a>
+                </div>
+                <div class="f_txt">
+                    <ul class="txt_top">
+                        <li><a href="#">ANTIDOPING</a></li>
+                        <li><a href="#">선수고충처리센터</a></li>
+                        <li><a href="#">클린센터</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일 무단 수집거부</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                        <li><a href="#">통합SNS</a></li>
+                    </ul>
+                    <p class="txt_center">
+                        [03925] 서울특별시 마포구 월드컵북로 402 KGIT센터
+                        11층 한국배구연맹 | TEL : 02-422-0110 | FAX : 02-418-0131
+                        Copyright (C) KOREAN VOLLEYBALL FEDERATION. ALL RIGHT RESERVED.
+                    </p>
+                    <p class="txt_footer">
+                        KOVO 및 KOVO 소속 14개 팀로고, 마스코트, 엠블럼과 KOVO 소속 선수의 사진, 초상, 영상, 캐릭터 및 기타 KOVO의 지적재산권등을 무단으로 사용하는 것은
+                        상표법 및 저작권법에 의해 금지됩니다.
+                    </p>
+                </div>
+            </div>
+        </footer><!-- //.footer -->
+    </div><!-- //.wrap -->
+
+</body>
+
+</html>
