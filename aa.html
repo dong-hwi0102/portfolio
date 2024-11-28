@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>텍스트 마스크 효과</title>
+<style>
+  /* 배경 설정 */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  /* 배경 이미지 컨테이너 */
+  .background-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* 배경 이미지 설정 */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* 텍스트 마스크 스타일 */
+  .mask-text {
+    font-size: 8rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    mix-blend-mode: destination-out;
+  }
+</style>
+</head>
+<body>
+  <div class="background-container">
+    <!-- 배경 이미지 -->
+    <img src="배경이미지.jpg" alt="배경 이미지" class="background-image">
+    
+    <!-- 마스크로 사용할 텍스트 -->
+    <div class="mask-text">Design the Future</div>
+  </div>
+</body>
+</html>
